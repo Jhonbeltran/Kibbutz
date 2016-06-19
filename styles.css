@@ -1,0 +1,81 @@
+/*header*/
+#contenedor{
+
+}
+
+#titulo{
+  background-image: url(assets/Fondo.jpg);
+  max-width: 1368px;
+  height: 595px;
+}
+
+#titulo div {
+  width: 420px;
+  height: 500px;
+  float: right;
+  margin-right: 10%;
+  margin-top: 35px;
+}
+
+#logo{
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+#texto{
+  font-family: 'Cormorant Upright', serif;
+  font-style: italic;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+
+#boton{
+  float: right;
+  padding-bottom: -2px;
+  margin: auto;
+  margin-top: 150px;
+  transition: ease-in-out 0.5s;
+}
+
+#boton:hover{
+  transform: scale(1.05, 1.05);
+}
+
+#boton:active{
+  transform: scale(0.8, 0.8);
+}
+
+
+
+
+
+
+
+#navigation {
+  background-color: #00796B;
+  height: 10%
+
+}
+
+#navigation ul {
+  margin: 0 auto;
+  overflow: hidden;
+  list-style: none;
+}
+
+#navigation ul li {
+  float: left;
+}
+
+#navigation ul li a{
+  color: #212121;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+#navigation ul li span{
+  margin-right: 10px;
+}
