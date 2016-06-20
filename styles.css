@@ -47,12 +47,6 @@
   transform: scale(0.8, 0.8);
 }
 
-
-
-
-
-
-
 #navigation {
   background-color: #673AB7;
   height: 40px;
@@ -86,5 +80,26 @@
 .menu:hover {
   text-decoration:none;
   background:#512DA8;
-  color: #FFFFFF;
-} 
+}
+
+#home{
+  color: #212121;
+  padding: 10px;
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#home span{
+  
+  margin-right: 10px;
+}
+
+
+
+#home:hover {
+  text-decoration:none;
+  background:#512DA8;
+  
+}
