@@ -62,6 +62,10 @@
 
 }
 
+#navigationmovil{
+  display: none;
+}
+
 #navigation ul {
   margin: 0 auto;
   overflow: hidden;
@@ -90,7 +94,7 @@
   background:#512DA8;
 }
 
-#home{
+.home{
   color: #212121;
   padding: 10px;
   display: block;
@@ -99,14 +103,14 @@
   font-weight: bold;
 }
 
-#home span{
+.home span{
   
   margin-right: 10px;
 }
 
 
 
-#home:hover {
+.home:hover {
   text-decoration:none;
   background:#512DA8;
   
@@ -138,13 +142,10 @@
 }
 
 @media screen and (max-width: 425px){
-  #titulo{
+#titulo{
   background-image: url(assets/FondoMovil.jpg);
   max-width: 425px;
   
-}
-#navigation {
-  max-width: 425px;
 }
 
 #logo{
@@ -177,9 +178,91 @@
   padding-bottom: -2px;
   margin: auto;
   margin-top: 50px;
-  margin-right: 45px;
+  margin-right: 55px;
 }
 
+#navigation{
+  display: none;
+}
+
+#navigationmovil {
+  display: block;
+  max-width: 425px;
+  background-color: #673AB7;
+  height: 40px;
+  font-family: 'Slabo 27px', serif;
 
 }
 
+#menu{
+  color: #212121;
+  padding: 10px;
+  display: block;
+  float: right;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#menu span{
+  
+  margin-right: 10px;
+}
+
+#menu:hover {
+  text-decoration:none;
+  background:#512DA8;
+  
+}
+}
+
+@media screen and (max-width: 375px){
+
+#logomovil{
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-left: 120px;
+}
+#textoMovil{
+  display: block;
+  font-family: 'Slabo 27px', serif;
+  color: #fff;
+  font-size: 21px;
+  margin-top: 60px;
+  margin-left: 120px;
+  letter-spacing: 2px;
+}
+#boton{
+  float: center;
+  padding-bottom: -2px;
+  margin: auto;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+}
+
+@media screen and (max-width: 320px){
+#logomovil{
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-left: 135px;
+}
+#textoMovil{
+  display: block;
+  font-family: 'Slabo 27px', serif;
+  color: #fff;
+  font-size: 21px;
+  margin-top: 60px;
+  margin-left: 200px;
+  letter-spacing: 2px;
+}
+#boton{
+  float: center;
+  padding-bottom: -2px;
+  margin: auto;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+}
