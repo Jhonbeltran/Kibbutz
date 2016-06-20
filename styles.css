@@ -6,14 +6,14 @@
 #titulo{
   background-image: url(assets/Fondo.jpg);
   max-width: 1368px;
-  height: 595px;
+  height: 450px;
 }
 
 #titulo div {
   width: 420px;
   height: 500px;
   float: right;
-  margin-right: 10%;
+  margin-right: 15%;
   margin-top: 35px;
 }
 
@@ -23,10 +23,9 @@
 }
 
 #texto{
-  font-family: 'Cormorant Upright', serif;
-  font-style: italic;
+  font-family: 'Slabo 27px', serif;
   color: #fff;
-  font-size: 25px;
+  font-size: 21px;
   margin-top: 15px;
   letter-spacing: 2px;
 }
@@ -35,7 +34,8 @@
   float: right;
   padding-bottom: -2px;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 50px;
+  margin-right: -76px;
   transition: ease-in-out 0.5s;
 }
 
@@ -54,8 +54,9 @@
 
 
 #navigation {
-  background-color: #00796B;
-  height: 10%
+  background-color: #673AB7;
+  height: 40px;
+  font-family: 'Slabo 27px', serif;
 
 }
 
@@ -63,15 +64,17 @@
   margin: 0 auto;
   overflow: hidden;
   list-style: none;
+  margin-right: 40px;
 }
 
 #navigation ul li {
-  float: left;
+  float: right;
+  font-weight: bold;
 }
 
 #navigation ul li a{
   color: #212121;
-  padding: 20px;
+  padding: 10px;
   display: block;
   text-decoration: none;
 }
@@ -79,3 +82,9 @@
 #navigation ul li span{
   margin-right: 10px;
 }
+
+.menu:hover {
+  text-decoration:none;
+  background:#512DA8;
+  color: #FFFFFF;
+} 
