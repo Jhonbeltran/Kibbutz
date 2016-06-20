@@ -145,6 +145,25 @@
 }
 
 @media screen and (max-width: 425px){
+
+/************************************/
+#navigation{
+    width: 80%;
+    height: 100%;
+    left: -100%; 
+    margin: 0;
+    position: fixed;
+    
+  }
+
+  #navigation ul li {
+  display: block;
+  float: none;
+  border-bottom: 1px solid rgba(255,255,255, .3);
+  }
+/************************************/
+
+
 #titulo{
   background-image: url(assets/FondoMovil.jpg);
   max-width: 425px;
@@ -184,11 +203,12 @@
   margin-right: 15%;
 }
 
-#navigation{
+/*#navigation{
   display: none;
-}
+}*/
 
 #navigationmovil {
+  
   display: block;
   max-width: 425px;
   background-color: #673AB7;
