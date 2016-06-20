@@ -1,12 +1,12 @@
 /*header*/
 #contenedor{
-
+  text-align: center;
 }
 
 #titulo{
-  background-image: url(assets/Fondo.jpg);
+  background-image: url(assets/Fondo1440.jpg);
   max-width: 1368px;
-  height: 450px;
+  height: 400px;
 }
 
 #titulo div {
@@ -21,6 +21,9 @@
   margin: 0 auto;
   margin-top: 15px;
 }
+#logomovil{
+  display: none;
+}
 
 #texto{
   font-family: 'Slabo 27px', serif;
@@ -30,11 +33,15 @@
   letter-spacing: 2px;
 }
 
+#textoMovil{
+  display: none;
+}
+
 #boton{
   float: right;
   padding-bottom: -2px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-right: -76px;
   transition: ease-in-out 0.5s;
 }
@@ -48,6 +55,7 @@
 }
 
 #navigation {
+  max-width: 1368px;
   background-color: #673AB7;
   height: 40px;
   font-family: 'Slabo 27px', serif;
@@ -103,3 +111,75 @@
   background:#512DA8;
   
 }
+
+
+@media screen and (max-width: 1024px){
+  #titulo{
+  background-image: url(assets/Fondo1024.jpg);
+  max-width: 1024px;
+  
+}
+#navigation {
+  max-width: 1024px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+  #titulo{
+  background-image: url(assets/Fondo768.jpg);
+  max-width: 768px;
+  
+}
+#navigation {
+  max-width: 768px;
+}
+
+}
+
+@media screen and (max-width: 425px){
+  #titulo{
+  background-image: url(assets/FondoMovil.jpg);
+  max-width: 425px;
+  
+}
+#navigation {
+  max-width: 425px;
+}
+
+#logo{
+  display: none;
+}
+
+#logomovil{
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-left: 105px;
+}
+
+#texto{
+  display: none;
+}
+
+#textoMovil{
+  display: block;
+  font-family: 'Slabo 27px', serif;
+  color: #fff;
+  font-size: 21px;
+  margin-top: 60px;
+  margin-left: 105px;
+  letter-spacing: 2px;
+}
+
+#boton{
+  float: center;
+  padding-bottom: -2px;
+  margin: auto;
+  margin-top: 50px;
+  margin-right: 45px;
+}
+
+
+}
+
